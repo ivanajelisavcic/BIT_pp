@@ -1,0 +1,50 @@
+
+
+.container-fluid {
+  text-align: center;
+    width: 100%;
+    height: 900px;
+    
+}
+
+.frame {
+    border:1px solid grey; 
+    height: 500px;
+    margin-left: 500px;
+    margin-right: 500px;
+    text-align: left;
+    padding-right: 100px;
+    padding-left: 30px;
+    
+
+}
+
+.createMovie {
+    background-color: lightgreen;
+    border: 3px solid lightblue;
+    width: 90%;
+    padding: 12px;
+    border-radius: 5px;
+
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+
+}
+
+#selectAll {
+    width: 90%;
+    padding: 8px;
+    background-color: rgb(206, 203, 203);
+
+}
+
+
+.allMoviesLength{
+    text-align: right;
+    margin-right: 20px;
+    padding-right: 80px;
+   padding-top: 200px;
+}
