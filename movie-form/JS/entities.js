@@ -14,6 +14,13 @@ class Movie {
 
 }
 
+
+// class Program extends Movie {
+//     constructor (date, programlength)
+//    super (getData)
+
+
+
 // class Genre {
 //     constructor(name) {
 //         this.name = name;
