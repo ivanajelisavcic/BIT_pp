@@ -2,7 +2,7 @@ var ctrlModule = (function (ui, data) {
 
 
     function setupEventListener() {
-        $(".searchField").click(function () {
+        $(".btn").click(function () {
             var searchContent = ui.getSearchInput();
 
             function onSuccess(users) {
@@ -11,13 +11,18 @@ var ctrlModule = (function (ui, data) {
             }
 
             data.fetchGitHubUsers(searchContent, onSuccess);
-
         })
 
     }
 
+    // function setupUserEventListener() {
+    //     $(".appender").click(function () {
+
+    //     }
+    // };
+
     function init() {
-        setupEventListener()
+        setupEventListener();
 
     }
     return {

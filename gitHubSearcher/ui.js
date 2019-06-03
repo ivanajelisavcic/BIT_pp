@@ -1,6 +1,6 @@
 var uiModule = (function () {
 
-    var $searchInput = $(".search");
+    var $searchInput = $(".searchField");
     var $userContainer = $(".userContainer");
 
     function getSearchInput() {
@@ -18,13 +18,11 @@ var uiModule = (function () {
 
             var photo = user.avatar_url;
             var username = user.login;
+            $userContainer.append('<a href="' + user.html_url + '">' + '<div id ="appender"><img src="' + photo + '" class="userImage"><p id="beautyP">' + username + '</p></div></a>')
 
-            var container = $("<div></div>");
-            var image = $("<img/>").attr('src', photo);
-            var photoInCont = container.append(image);
-            $userContainer.append(photoInCont);
-
-
+            // var imageLink = $('<a href= 'user.url'></a>');
+            // $(container).append("<p id = 'beautyP'>" + username + "</p>");
+            // $(username).click(userLink);
         });
     }
 
