@@ -1,0 +1,106 @@
+body {
+  background-color: rgb(241, 241, 229);
+}
+header {
+  /* display: flex;
+  justify-content: space-between; */
+  margin-left: 50px;
+  margin-right: 50px;
+  border-bottom: 1px solid lightgray;
+}
+.inputBtn {
+  margin: auto 30px;
+}
+h1 {
+  background-color: rgb(188, 219, 217);
+  padding: 20px;
+  border: 2px solid rgb(248, 200, 182);
+  border-radius: 30px;
+}
+.searchField {
+  margin-top: 25px;
+  height: 25px;
+  width: 300px;
+  border-radius: 8px;
+}
+.btn {
+  /* height: 30%; */
+  width: 100px;
+  height: 30px;
+  background-color: rgb(188, 219, 217);
+  border: 2px solid rgb(248, 200, 182);
+  border-radius: 10px;
+}
+
+.container {
+  width: 1200px;
+}
+
+.userContainer {
+  display: inline;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.search {
+  margin-top: 25px;
+  height: 20px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.container {
+  width: 1200px;
+}
+
+.lineFirst {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lineSecond {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imgContainer {
+  width: 300px;
+  height: 200px;
+  border: 2px solid rgb(153, 154, 167);
+  border-radius: 3px;
+  padding: 5px;
+  text-align: center;
+  margin: 20px;
+  margin-left: 110px;
+  display: inline-block;
+}
+#beautyP {
+  font-family: "Courier New", Courier, monospace;
+  color: lightslategray;
+  text-align: center;
+  background-color: lightgoldenrodyellow;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  width: 100%;
+}
+#appender {
+  display: inline-block;
+  width: 25%;
+  margin: 15px;
+  background-color: rgb(188, 219, 217);
+  border: 2px solid rgb(248, 200, 182);
+  border-radius: 20px;
+  padding: 10px;
+}
+.username {
+  text-align: center;
+}
+
+.userImage {
+  width: 100%;
+  border-radius: 10px;
+}
