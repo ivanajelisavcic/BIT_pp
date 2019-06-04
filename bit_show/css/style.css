@@ -2,11 +2,12 @@
   text-align: center;
   background-color: gray;
   color: aliceblue;
-  height: 50px;
-}
+  height: 50px; }
 
 header {
-  color: aliceblue;
-}
+  color: aliceblue; }
+
+.infoContainer {
+  display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */

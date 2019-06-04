@@ -9,8 +9,8 @@ var uiModule = (function () {
 
     function renderShows(shows) {
         shows.forEach(function (show) {
-            var $name = $('<p>').text(show.name);
-            $showContainer.append($name);
+            $showContainer.append('<a href=""><div class="infoContainer"><img src="' + show.image.medium + '" alt=""><h4>' + show.name + '</h4></div></a>');
+
         });
     }
 
