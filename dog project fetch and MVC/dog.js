@@ -38,14 +38,14 @@
 // }
 
 
-const $body = document.querySelector(".container");
-const $button = document.querySelector("#button");
+const $body = document.querySelector(".container");     
+const $button = document.querySelector("#button");      
+ 
+$button.addEventListener('click', fetchDogImage);      
 
-$button.addEventListener('click', fetchDogImage);
-
-function fetchDogImage() {
-    fetch("https://dog.ceo/api/breeds/image/random")
-        .then(response => response.json())
+function fetchDogImage() {                                
+    fetch("https://dog.ceo/api/breeds/image/random")       
+        .then(response => response.json())                 
         .then((dogData) => renderDogImage(dogData.message))
 }
 
